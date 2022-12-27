@@ -1,2 +1,8 @@
 # Hateful-Speech-Detection
 A supervised machine learning project detecting hateful speech used on social media
+## Abstract
+In this project, we tried to train a model that takes the preprocessed twitter text data as input and classify whether the text belongs to a hateful speech or not. Overall, we experimented text-encoding method at both word level and character level, and trained five machine learning models including Bernoulli Naive Bayes, SVM, Xgboost, BERT, and LSTM. By implementing experimental analysis and comparing the performance metrics obtained by each model, we achieved our best performance through a combination of word-level text-encoding and BERT model, with an F-1 score of 0.9284.
+## Introduction
+With the development of social networks, diverse social platforms have become indispensable parts of people’s life. We may share our moments on Instagram, record diaries through Snapchat, and type comments on Twitter. The words posted on social media are not all amicable words. Some of them may contain content that is racist, offensive, sexist, and so on. The goal of the project is to try to scan through these social media posts and detect whether they contain “hate speech” or not. This is an application result as if the model is well-treated, we can apply it to diverse social media platforms to monitor users’ behaviors and thus build a friendly online environment.
+
+For full project report, please see [Hateful Speech Detection Project Report](https://github.com/carolxu369/Hateful-Speech-Detection/blob/main/Hateful%20Speech%20Detection%20Project%20Report.pdf) in this repository.
